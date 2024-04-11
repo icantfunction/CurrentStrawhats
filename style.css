@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-image: url('backgroundimagesky.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: center;
+    padding: 32px;
+    background-color: #333;
+    color: white;
+    border-bottom: red 5px solid;
+}
+
+.usopp{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    position: relative;
+    transform: scale(1.25);
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url('usopphappy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 125%; /* Increase the size */
+    transform: scale(1);
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.franky{
+    object-position: 100% 25%;
+}
+
